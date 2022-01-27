@@ -11,6 +11,14 @@ class House
  public $length;
  public $rooftype;
 
+ public function __construct($width, $height, $lenght)
+ {
+  $this->width = $width;
+  $this->height = $height;
+  $this->length = $lenght;
+ }
+ 
+
  public function paint ($color)
  {
     //  $this->color = $color;
